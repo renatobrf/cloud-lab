@@ -4,3 +4,4 @@
 - docker --version
 - start the daemon
 - sudo systemctl start docker
+- docker pull renatobrf/python-k8s-initial:0.1
