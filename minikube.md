@@ -12,7 +12,7 @@
 - sudo mv ./kubectl /usr/local/bin/kubectl
 
 # minikube cmd
-- minikube start
+- minikube start --force
 - minikube ssh
 - minikube status
 - minikube addons list
@@ -21,6 +21,7 @@
 - minikube delete
 - minikube dashboard
 - minikube dashboard --url
+- http://127.0.0.1:40461/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default
 
 # dashboard
 - https://minikube.sigs.k8s.io/docs/handbook/dashboard/
