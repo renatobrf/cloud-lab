@@ -3,6 +3,7 @@
 - sudo apt install docker.io
 - docker --version
 - start the daemon
+- systemctl status docker
 - whoami
 - sudo usermod -aG docker renato
 - sudo systemctl start docker
