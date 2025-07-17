@@ -21,3 +21,11 @@
 - minikube delete
 - minikube dashboard
 - minikube dashboard --url
+
+# dashboard
+- https://minikube.sigs.k8s.io/docs/handbook/dashboard/
+- https://github.com/kubernetes/dashboard
+## Add kubernetes-dashboard repository
+helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+## Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
+helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
