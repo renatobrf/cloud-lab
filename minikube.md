@@ -23,7 +23,7 @@
 - minikube dashboard --url
 - http://127.0.0.1:40461/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default
 
-# dashboard
+# dashboard (not mandatory)
 - https://minikube.sigs.k8s.io/docs/handbook/dashboard/
 - https://github.com/kubernetes/dashboard
 - Add kubernetes-dashboard repository
