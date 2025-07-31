@@ -12,3 +12,6 @@
 - sudo apt install wsl
 - sudo systemctl status
 - sudo -e /etc/wsl.conf
+
+# persistent volume
+- kubectl apply -f pv.yaml
