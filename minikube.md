@@ -16,7 +16,6 @@
 - minikube ssh
 - minikube status
 - minikube stop
-- minikube delete
 - minikube dashboard
 - minikube dashboard --url
 - http://127.0.0.1:40461/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default
