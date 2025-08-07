@@ -15,8 +15,6 @@
 - minikube start --force
 - minikube ssh
 - minikube status
-- minikube addons list
-- minikube addons enable [addon_name]
 - minikube stop
 - minikube delete
 - minikube dashboard
@@ -29,3 +27,8 @@
 - Add kubernetes-dashboard repository
 - helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 - helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
+
+# addons
+- https://minikube.sigs.k8s.io/docs/commands/addons/
+- minikube addons list
+- minikube addons enable [addon_name]
