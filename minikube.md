@@ -31,3 +31,6 @@
 - https://minikube.sigs.k8s.io/docs/commands/addons/
 - minikube addons list
 - minikube addons enable [addon_name]
+
+# label
+- kubectl label nodes minikube cluster=renato-minikube-lab-cluster1
