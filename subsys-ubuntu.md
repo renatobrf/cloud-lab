@@ -15,3 +15,6 @@
 
 # persistent volume
 - kubectl apply -f pv.yaml
+
+# images mng
+- docker rmi 36e50cb9ef57
