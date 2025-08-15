@@ -17,4 +17,5 @@
 - kubectl apply -f pv.yaml
 
 # images mng
+- docker pull renatobrf/python-k8s-initial
 - docker rmi 36e50cb9ef57
