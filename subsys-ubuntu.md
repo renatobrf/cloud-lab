@@ -8,7 +8,6 @@
 
 # start the daemon
 - sudo systemctl start docker
-- docker pull renatobrf/python-k8s-initial:0.1
 - sudo apt install wsl
 - sudo systemctl status
 - sudo -e /etc/wsl.conf
