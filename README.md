@@ -1,2 +1,2 @@
 # common players
-- explore cloud services and technologies
+- explore cloud services and microservices.
