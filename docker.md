@@ -6,14 +6,16 @@
 - whoami
 - sudo usermod -aG docker renato
 
+## baby steps
+- docker images ls
+- docker ps
+- docker volume ls
+
 # start the daemon
 - sudo systemctl start docker
 - sudo apt install wsl
 - sudo systemctl status
 - sudo -e /etc/wsl.conf
-
-# persistent volume
-- kubectl apply -f pv.yaml
 
 # images mng
 - docker pull renatobrf/python-k8s-initial
