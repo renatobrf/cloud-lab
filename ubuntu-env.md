@@ -5,7 +5,7 @@
 # github-cli
 - sudo apt install gh
 
-# github desktop
+# github desktop (out)
 - ref: https://linux.how2shout.com/install-github-desktop-app-on-ubuntu-22-04-or-20-04-linux/
 - sudo apt update && sudo apt upgrade
 - wget -qO - https://mirror.mwt.me/shiftkey-desktop/gpgkey | gpg --dearmor | sudo tee /etc/apt/keyrings/mwt-desktop.gpg > /dev/null
@@ -14,8 +14,7 @@
 - sudo apt install github-desktop
 
 # docker repo setup
-- ref: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
-- create file install_docker.sh
+ref: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 - ls -al install_docker.sh
 - chmod +x install_docker.sh
 - ./install_docker.sh
