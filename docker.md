@@ -7,7 +7,7 @@
 - sudo usermod -aG docker renato
 
 ## baby steps
-- docker images ls
+- docker images
 - docker ps
 - docker volume ls
 
