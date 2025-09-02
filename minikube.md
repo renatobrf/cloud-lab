@@ -34,3 +34,8 @@
 
 # label
 - kubectl label nodes minikube cluster=renato-minikube-lab-cluster1
+
+# multi-node cluster
+ref: https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
+- kubectl get nodes
+- minikube node add --worker
