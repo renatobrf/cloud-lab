@@ -4,3 +4,10 @@ https://cloud-init.io/
 
 ## examples.
 https://cloudinit.readthedocs.io/en/latest/reference/examples.html
+
+## lab.
+- draft a script and paste into a aws ec2 instance, copy the public dns address.
+- $ ssh ubuntu@public-dns-address
+- $ ls /temp/index.html
+- $ cat /var/www/index.html
+- browser, public-dns-address
