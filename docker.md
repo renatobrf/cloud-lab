@@ -20,3 +20,4 @@
 # images mng
 - docker pull renatobrf/python-k8s-initial
 - docker rmi 36e50cb9ef57
+- docker image ls --filter "reference=renatobrf/python-k8s-initial"
