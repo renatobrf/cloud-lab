@@ -21,3 +21,4 @@
 - docker pull renatobrf/python-k8s-initial
 - docker rmi 36e50cb9ef57
 - docker image ls --filter reference=renatobrf/*
+- docker image ls --filter reference=gcr.io/k8s-minikube/*
