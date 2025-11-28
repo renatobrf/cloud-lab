@@ -5,6 +5,7 @@
 - $ podman machine init
 - $ sudo apt install qemu-kvm
 - $ podman machine start
+- $ podman info
 
 ## lab1
 from https://podman.io/docs
