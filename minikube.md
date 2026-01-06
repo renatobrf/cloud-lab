@@ -39,3 +39,7 @@
 ref: https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 - kubectl get nodes
 - minikube node add --worker
+
+# consumption
+- kubectl top nodes
+- kubectl top pods --all-namespaces
