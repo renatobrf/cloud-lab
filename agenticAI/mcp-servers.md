@@ -3,7 +3,8 @@ Um MCP Server (Servidor de Protocolo de Contexto de Modelo) é um programa que c
 
 ## Padroes
 O Model Context Protocol (MCP) é um padrão aberto lançado pela Anthropic que permite conectar IAs (LLMs) a fontes de dados externas e ferramentas de forma segura e padronizada. Ele atua como um "conector universal", permitindo que modelos acessem bancos de dados, arquivos e APIs, melhorando a relevância das respostas e a automação de tarefas.
-https://www.anthropic.com/news/model-context-protocol
+
+- https://www.anthropic.com/news/model-context-protocol
 
 ## Ferramentas
-https://claude.ai/new
+- https://claude.ai/new
