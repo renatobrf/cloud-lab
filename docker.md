@@ -22,3 +22,8 @@
 - docker rmi 36e50cb9ef57
 - docker image ls --filter reference=renatobrf/*
 - docker image ls --filter reference=gcr.io/k8s-minikube/*
+
+# running
+- docker image ls --filter reference=renatobrf/*
+- docker run id-img
+- docker run -p 8080:8080 id-img
