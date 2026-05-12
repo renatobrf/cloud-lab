@@ -27,3 +27,4 @@
 - docker image ls --filter reference=renatobrf/*
 - docker run id-img
 - docker run -p 8080:8080 id-img
+- curl ifconfig.me
