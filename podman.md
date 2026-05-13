@@ -16,3 +16,9 @@ from https://podman.io/docs
 - $ curl http://localhost:8080
 - $ podman top -l
 - $ podman stop -l
+
+## up and running
+- podman desktop
+- images and mng registries
+- add reg docker hub
+- pull images and play
